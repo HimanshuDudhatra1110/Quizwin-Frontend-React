@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import Header from "../Header/Header";
+import Ad336x280 from "../AdsComponents/Ad336x280";
 
 const PlayQuiz = () => {
   const location = useLocation();
@@ -33,9 +34,10 @@ const PlayQuiz = () => {
   return (
     <div className="succes-page con-join-quiz-page">
       <Header showBackButton={true} />
-      <div className="adds">
+      {/* <div className="adds">
         <h2>AD</h2>
-      </div>
+      </div> */}
+      <Ad336x280 />
       <div className="container quiz-container">
         <div className="success-info">
           <div className="quiz-detail">

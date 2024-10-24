@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Ad336x280 from "../AdsComponents/Ad336x280";
 const Success = () => {
   const coins = localStorage.getItem("coins");
   console.log(coins);
@@ -19,9 +20,10 @@ const Success = () => {
           </Link>
         </div>
       </div>
-      <div className="adds">
+      {/* <div className="adds">
         <h2>AD</h2>
-      </div>
+      </div> */}
+      <Ad336x280 />
       <div className="prise-description">
         <h1>Play Quiz and Win Coins!</h1>
         <div className="gradient-line "></div>
